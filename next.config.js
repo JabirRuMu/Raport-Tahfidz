@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Menjadikan project sebgai HTML statis
-  imges: {
-    unoptimized: true, //Wajib diaktifkan untuk GitHub Pages
-}
+  output: 'export', // Menjadikan project sebagai HTML statis
+  images: {
+    unoptimized: true, // Wajib diaktifkan untuk GitHub Pages
+  },
+  basePath: '/web-raport', // Ganti dengan nama repo GitHub Anda jika bukan root
+  trailingSlash: true, // Untuk static export
   reactStrictMode: true,
   swcMinify: true,
 }
