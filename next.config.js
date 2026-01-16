@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Wajib diaktifkan untuk GitHub Pages
   },
-  basePath: '/web-raport', // Ganti dengan nama repo GitHub Anda jika bukan root
+  basePath: '/Raport-Tahfidz', // Sesuai nama repo GitHub
   trailingSlash: true, // Untuk static export
   reactStrictMode: true,
   swcMinify: true,
